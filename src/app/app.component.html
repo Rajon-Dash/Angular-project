@@ -1,0 +1,7 @@
+<app-header-nav></app-header-nav>
+<app-loading-spinner *ngIf="showLoading | async"></app-loading-spinner>
+<div class="container">
+    <div class="col-md-12">
+        <router-outlet></router-outlet>
+    </div>
+</div>

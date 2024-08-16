@@ -1,0 +1,51 @@
+.card {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-input {
+    border-radius: 0.5rem;
+    border: 1px solid #e0e0e0;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-input::placeholder {
+    color: #999;
+    font-weight: 500;
+  }
+  
+  .custom-input:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.1);
+    outline: none;
+  }
+  
+  .custom-btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .text-danger.small {
+    font-size: 0.85rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
